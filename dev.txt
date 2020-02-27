@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+	<title>Desenvolvimento</title>
+</head>
+<body>
+
+
+	<ul id="slide-out" class="sidenav">
+    <li><div class="user-view">
+      <div class="background">
+        <img src="img/perfil.png" id="fundoPerfil">
+      </div>
+      <a id="imgPerfil" href="perfil.html"><img class="circle" src="img/perfil.png"></a>
+    </div></li>
+    <li><p class="center text black-text">Daniel Lino de Almeida</p></li>
+    <li><a href="#!">Second Link</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Subheader</a></li>
+    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+  </ul>
+        
+	<nav>
+		<div class="nav-wrapper">
+			<img id="imgMenu" src="img/menu.png"  data-target="slide-out" class="sidenav-trigger left">
+			<a href="#" class="brand-logo"><b>Desenvolvimento</b></a>
+		</div>
+	</nav>
+	<div id="menu">
+		<div class="row">
+			<div id="corpoLogo">
+				<div class="col s2 m4 l4">
+					<a href="#modal1" class="modal-trigger"><img id="logo"  src="img/logo.png"></a> 
+					<h4>Butterfly Corporation</h4>
+				</div>
+				<div class="col s1 m1 l1">
+					<div id="linha"></div>
+				</div>
+				<div class="col s1 m1 l3 pull-l1">
+					<h4>Orientador(a):</h4>
+					<h6>Profª Graciete Henriques</h6>
+
+					<h4>Desenvolvimento de Sistemas</h4>
+					<h6>1º semestre de 2020</h6>
+				</div>
+				<div class="col s1 m1 l1 pull-l1">
+					<div id="enviarTcc">
+						<h5 class="center text">Insira ao arquivo de TCC(.docx) aqui</h5>
+						<img src="img/icon.png" id="iconeDow">
+					</div>
+				</div>
+				<div class="col s1 m1 l4 pull-l1">
+					<div id="pegarTcc">
+						<h5 class="center text">O TCC corrigido aparecerá aqui para download</h5>
+						<a href=""><img src="img/icon.png" id="iconeDow2"></a>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<div class="row">
+			<div class="col s12 m4 l4">
+				<textarea id="descTcc" placeholder="Insira aqui um breve descritivo sobre sua equipe/projeto de tcc"></textarea>
+			</div>
+		</div>
+	</div>  <!-- Modal Structure -->
+  	<img src="img/logo.png" id="modal1" class="modal">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/acao.js"></script>
+</body>
+</html>
